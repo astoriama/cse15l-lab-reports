@@ -31,10 +31,11 @@ A totorial for incoming 15L students, or future me, about how to log into a cour
     | cat | concatenate, output file content |
     | exit | logout |
 
-    An example of trying commands: <img src="trycommands.png"
+    An example of trying commands: 
+<img src="trycommands.png"
      alt="VScode setup"
      style="float: left; margin-right: 10px;" /> 
-     
+
 4. Moving Files with scp
 5. Setting an SSH Key
 6. Optimizing Remote Running
