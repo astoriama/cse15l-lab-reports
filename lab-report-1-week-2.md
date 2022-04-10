@@ -8,7 +8,7 @@ A totorial for incoming 15L students, or future me, about how to log into a cour
      alt="VScode setup"
      style="float: left; margin-right: 10px;" /> 
     * install OpenSSH, following [instructions](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse).<br>
-<br>
+
 2. Remotely Connecting
 
     * Open terminal
@@ -18,7 +18,7 @@ A totorial for incoming 15L students, or future me, about how to log into a cour
   <img src="SSHenter.png"
      alt="SSHenter"
      style="float: left; margin-right: 10px;" /> 
-<br>
+
 3. Trying Some Commands
 
     | Commands  | Description |
@@ -36,11 +36,65 @@ A totorial for incoming 15L students, or future me, about how to log into a cour
 
     An example of trying commands: 
 <img src="trycommands.png"
-     alt="VScode setup"
+     alt="commands"
      style="float: left; margin-right: 10px;" /> 
 
 4. Moving Files with scp
-5. Setting an SSH Key
-6. Optimizing Remote Running
+    * use command `scp ______.java cs15lsp22___@ieng6.ucsd.edu:~/`.
+    This command means **securely copying files** of file to a certain location.
+    * Try runing the files on different locations:
+        * on local
+<img src="scp1.png"
+        alt="scp1"
+        style="float: left; margin-right: 10px;" /> 
+        * on server
+        <img src="scp2.png"
+        alt="scp2"
+        style="float: left; margin-right: 10px;" /> 
 
+    
+5. Setting an SSH Key
+    * On your local computer, enter command     `ssh-keygen`  
+    * WHat your should see:
+    ```
+    $ ssh-keygen
+    Generating public/private rsa key pair.
+    Enter file in which to save the key (/Users/<user-name>/.ssh/id_rsa): /Users/<user-name>/.ssh/id_rsa
+    Enter passphrase (empty for no passphrase): 
+    ```
+    **Do not add a passphrase for this step! (press enter)**
+    ```
+    Enter same passphrase again: 
+    ```
+    **Press enter for this step**
+    ```
+    Your identification has been saved in /Users/<user-name>/.ssh/id_rsa.
+    Your public key has been saved in /Users/<user-name>/.ssh/id_rsa.pub.
+    The key fingerprint is:
+    SHA256:jZaZH6fI8E2I1D35hnvGeBePQ4ELOf2Ge+G0XknoXp0 <user-name>@<system>.local
+    The key's randomart image is:
+    +---[RSA 3072]----+
+    |                 |
+    |       . . + .   |
+    |      . . B o .  |
+    |     . . B * +.. |
+    |      o S = *.B. |
+    |       = = O.*.*+|
+    |        + * *.BE+|
+    |           +.+.o |
+    |             ..  |
+    +----[SHA256]-----+
+
+    ```
+    * Windows users should follow more step [here](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation)
+    * Copy the public key to the .ssh directory of your user account on the server: `ssh cs15lsp22__@ieng6.ucsd.edu`, then enter your password.
+    * Now you should be able to log in freely:<img src="SSHkey.png"
+        alt="scp1"
+        style="float: left; margin-right: 10px;" /> 
+
+6. Optimizing Remote Running
+    
+    Try to put numerous commands in one line!
+    * Using ""
+    * Using ;
 
