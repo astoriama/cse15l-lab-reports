@@ -67,6 +67,7 @@ A totorial for incoming 15L students, or future me, about how to log into a cour
     Enter same passphrase again: 
     ```
     **Press enter for this step**
+    
     ```
     Your identification has been saved in /Users/<user-name>/.ssh/id_rsa.
     Your public key has been saved in /Users/<user-name>/.ssh/id_rsa.pub.
@@ -95,6 +96,8 @@ A totorial for incoming 15L students, or future me, about how to log into a cour
 6. Optimizing Remote Running
     
     Try to put numerous commands in one line!
-    * Using ""
-    * Using ;
+    * Using quotes `""`
+        * `$ ssh cs15lsp22zz@ieng6.ucsd.edu "ls"`
+    * Using semicolons `;`
+        * `$ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI`
 
