@@ -67,7 +67,7 @@ A totorial for incoming 15L students, or future me, about how to log into a cour
     Enter same passphrase again: 
     ```
     **Press enter for this step**
-    
+
     ```
     Your identification has been saved in /Users/<user-name>/.ssh/id_rsa.
     Your public key has been saved in /Users/<user-name>/.ssh/id_rsa.pub.
@@ -90,7 +90,7 @@ A totorial for incoming 15L students, or future me, about how to log into a cour
     * Windows users should follow more step [here](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation)
     * Copy the public key to the .ssh directory of your user account on the server: `ssh cs15lsp22__@ieng6.ucsd.edu`, then enter your password.
     * Now you should be able to log in freely:<img src="SSHkey.png"
-        alt="scp1"
+        alt="SSHkey"
         style="float: left; margin-right: 10px;" /> 
 
 6. Optimizing Remote Running
@@ -100,4 +100,10 @@ A totorial for incoming 15L students, or future me, about how to log into a cour
         * `$ ssh cs15lsp22zz@ieng6.ucsd.edu "ls"`
     * Using semicolons `;`
         * `$ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI`
+    * Using upparrow up keyboard ⬆️
+        * recall last command
+        
+    For example: <img src="optimalcommands.png"
+        alt="optimalcommands"
+        style="float: left; margin-right: 10px;" /> 
 
