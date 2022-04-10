@@ -18,6 +18,7 @@ A totorial for incoming 15L students, or future me, about how to log into a cour
      style="float: left; margin-right: 10px;" /> 
 <br>
 3. Trying Some Commands
+
     | Commands  | Description |
     | :----:      | :---      |
     | mkdir | Make directory     |
