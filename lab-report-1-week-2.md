@@ -10,14 +10,17 @@ A totorial for incoming 15L students, or future me, about how to log into a cour
     * install OpenSSH, following [instructions](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse).<br>
 <br>
 2. Remotely Connecting
-    * open terminal
+
+    * Open terminal
     * enter command `ssh cs15lsp22__@ieng6.ucsd.edu`, put your identical characters on the underline.
     * Then they should ask you for your password, enter your password.
-    * After aforementioned process, you should get: <img src="SSHenter.png"
+    * After aforementioned process, you should get: 
+  <img src="SSHenter.png"
      alt="SSHenter"
      style="float: left; margin-right: 10px;" /> 
 <br>
 3. Trying Some Commands
+
     | Commands  | Description |
     | :----:      | :---      |
     | mkdir | Make directory     |
