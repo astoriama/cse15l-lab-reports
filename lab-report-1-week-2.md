@@ -18,7 +18,8 @@ A totorial for incoming 15L students, or future me, about how to log into a cour
   <img src="SSHenter.png"
      alt="SSHenter"
      style="float: left; margin-right: 10px;" /> 
-
+   *
+   
 3. Trying Some Commands
 
     | Commands  | Description |
@@ -38,7 +39,8 @@ A totorial for incoming 15L students, or future me, about how to log into a cour
 <img src="trycommands.png"
      alt="commands"
      style="float: left; margin-right: 10px;" /> 
-
+   *
+   
 4. Moving Files with scp
     * use command `scp ______.java cs15lsp22___@ieng6.ucsd.edu:~/`.
     This command means **securely copying files** of file to a certain location.
@@ -51,7 +53,8 @@ A totorial for incoming 15L students, or future me, about how to log into a cour
         <img src="scp2.png"
         alt="scp2"
         style="float: left; margin-right: 10px;" /> 
-
+   *
+   
     
 5. Setting an SSH Key
     * On your local computer, enter command     `ssh-keygen`  
@@ -92,7 +95,8 @@ A totorial for incoming 15L students, or future me, about how to log into a cour
     * Now you should be able to log in freely:<img src="SSHkey.png"
         alt="SSHkey"
         style="float: left; margin-right: 10px;" /> 
-
+   *
+   
 6. Optimizing Remote Running
     
     Try to put numerous commands in one line!
