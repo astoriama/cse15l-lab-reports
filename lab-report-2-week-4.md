@@ -47,13 +47,6 @@ Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
 ```
 The major issue of all test cases are there are extra element in the file besides the link, or the format of link is not correct. To fix the problem, we only need to check every part of the link's format, stop when anything goes wrong, and print whatever is inside two paratheseses. The failure is because the code went into an infinite loop by searching for something that does not exist, we only need to stop when there are nothing to look for. So I inputed many if-statements and breaking commands.
 
-**⚠️ I corrected all mistakes showed in 8 test files in this correction, so for the third correction I am being creative**
-
-Showing all tests passed:
-<img src="AllTestsPassed.png"
-     alt="AllTestsPassed"
-     style="float: left; margin-right: 10px;" /> 
-
 ## Third Correction: Allow brackets in link discription
 <img src="CorrectionLink3.png"
      alt="CorrectionLink3"
