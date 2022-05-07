@@ -72,3 +72,17 @@ Keys on github is stored in setting:
      alt="keysOnGithub"
      style="float: left; margin-right: 10px;" /> 
 
+## Running git commands to commit and push a change to Github while logged into your ieng6 account:
+I modified my `MarkdownParseTest.java` file and commited my change:
+<img src="gitCommit.png" 
+     alt="gitCommit"
+     style="float: left; margin-right: 10px;" /> 
+
+Then, I pushed:
+<img src="gitPush.png" 
+     alt="gitPush"
+     style="float: left; margin-right: 10px;" /> 
+
+A link to my commit is [here](https://github.com/astoriama/markdown-parser/commit/e62f94fa4cf0a7cbd3102f8f9bed7c6b896809fa).
+
+## Copy whole directories
