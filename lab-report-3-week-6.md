@@ -68,8 +68,7 @@ HereIam.java                                                  100%  303    12.5K
 
 - Public Key on github is stored in setting:
 <img src="PublicKeyOnGithub.jpeg" 
-     alt="PublicKeyOnGithub"
-     style="float: left; margin-right: 10px;" /> 
+     alt="PublicKeyOnGithub" /> 
 
 ## Running git commands to commit and push a change to Github while logged into your ieng6 account:
 - I modified my `MarkdownParseTest.java` file and commited my change:
@@ -97,6 +96,7 @@ HereIam.java                                                  100%  303    12.5K
      style="float: left; margin-right: 10px;" /> 
 
 - Combination of commands:
-```
-(base) astoria@Astorias-MBP markdown-parser % scp -r . nini:markdown-parser;ssh nini "cd markdown-parser;javac MarkdownParse.java;java MarkdownParse test-file.md"
-```
+<img src="manyCommands.png" 
+     alt="manyCommands"
+     style="float: left; margin-right: 10px;" /> 
+
