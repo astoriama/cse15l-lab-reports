@@ -8,8 +8,7 @@
 ```
 - Which gives:
 <img src="showSSHfile.jpeg"
-     alt="showSSHfile"
-     style="float: left; margin-right: 10px;" /> 
+     alt="showSSHfile"/> 
 
 - I edited the file using:
 ```
@@ -27,8 +26,7 @@
 `$ SSH nini`:
 
 <img src="SSHnini.jpeg"
-     alt="SSH nini"
-     style="float: left; margin-right: 10px;" /> 
+     alt="SSH nini" /> 
 
 
 ### Show an scp command copying a file to your account using just the alias you chose.
