@@ -25,6 +25,7 @@
 
 - Since I chose `nini` as my alias I used command
 `$ SSH nini`:
+
 <img src="SSHnini.jpeg"
      alt="SSH nini"
      style="float: left; margin-right: 10px;" /> 
