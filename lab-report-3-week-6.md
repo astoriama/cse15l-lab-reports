@@ -86,3 +86,17 @@ Then, I pushed:
 A link to my commit is [here](https://github.com/astoriama/markdown-parser/commit/e62f94fa4cf0a7cbd3102f8f9bed7c6b896809fa).
 
 ## Copy whole directories
+Using `scp -r` I copied all my files recursively into my user account:
+<img src="scp-r.png" 
+     alt="scp -r"
+     style="float: left; margin-right: 10px;" /> 
+
+Running file on server:
+<img src="runFileOnServer.png" 
+     alt="runFileOnServer"
+     style="float: left; margin-right: 10px;" /> 
+
+Combination of commands:
+```
+(base) astoria@Astorias-MBP markdown-parser % scp -r . nini:markdown-parser;ssh nini;cd markdown-parser;javac MarkdownParse.java;java MarkdownParse test-file.md
+```
