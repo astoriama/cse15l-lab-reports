@@ -67,7 +67,7 @@ HereIam.java                                                  100%  303    12.5K
 
 - Public Key on github is stored in setting:
 
-<img src="PublicKeyOnGithub.jpeg" 
+<img src="publicKeyOnGithub.jpeg" 
      alt="PublicKeyOnGithub"
      style="float: left; margin-right: 10px;" /> 
 
