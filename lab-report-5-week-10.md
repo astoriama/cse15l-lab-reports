@@ -25,4 +25,4 @@ To recognize such link, we only need to delete the if statement.
 ![preview489](preview489.png)
 - The given implementation is correct, while my implementation is wrong:
 ![compare489](compare489.png)
-- The problem with my code is that I allowed changed in line in text. What I should change about my code is add an if statement about `/n` which indicates the line changing command. If `\n` exists, than the link should not be added to output.
+- The problem with my code is that I allowed changed in line in text. What I should change about my code is add an if statement about `\n` which indicates the line changing command. If `\n` exists, than the link should not be added to output.
